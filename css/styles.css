@@ -919,16 +919,21 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     .features-list {
         gap: 24px;
-        flex-wrap: nowrap;
+        
+    }
+    
+    .features-blok {
+        width: calc((100% - 72px) / 4)
     }
 
     .icon-features {
         display: flex;
-        }
+    }
+
     .features-title {
         font-weight: 500;
         font-size: 20px;
-}
+    }
 .features-text {
     font-weight: 400;
 }
